@@ -11,7 +11,8 @@ class HW1Test {
     public void testHelloWorld()
     {
 
-        // assertion - this will fail as an exmaple
+        // assertion - you will see one success and one fail
+        assertEquals("Hello", "Hello!");
         assertEquals("Hello world!\n", "Hello world!");
 
     }
